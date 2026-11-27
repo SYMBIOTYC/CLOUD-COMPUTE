@@ -15,3 +15,8 @@ This repository describes architecture and bootstrap contracts. A README or work
 ## Documentation
 
 [Architecture and acceptance](docs/architecture-and-acceptance.md)
+
+
+## Bootstrap CI status
+
+The Ubuntu 24.04 workflow validates the repository baseline and emits a short-lived CI execution receipt. A passing hosted CI run proves only that repository validation executed; it does not prove that a Worker Registry, dispatcher, cloud trust, or persistent compute worker is deployed.
